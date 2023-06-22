@@ -130,7 +130,7 @@ const page = () => {
                                             className="block object-cover object-center w-full h-full rounded-lg"
                                             src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
                                     </div>
-                                    <div className="w-full p-1 md:p-2">
+                                    <div className="w-3/4 p-1 md:p-2">
                                         <img
                                             alt="gallery"
                                             className="block object-cover object-center w-full h-full rounded-lg"
@@ -138,7 +138,7 @@ const page = () => {
                                     </div>
                                 </div>
                                 <div className="flex flex-wrap w-1/2">
-                                    <div className="w-full p-1 md:p-2">
+                                    <div className="w-3/4 p-1 md:p-2">
                                         <img
                                             alt="gallery"
                                             className="block object-cover object-center w-full h-full rounded-lg"
