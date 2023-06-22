@@ -8,14 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +16,110 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+nav, footer{
+  background-color: #287EEF;
+}
+
+.booking{
+  min-width: 800px;
+  height: 80px;
+  background-color: #D1D8DB;
+}
+
+#NumGuest {
+  width: 60px;
+}
+
+.yellow {
+  background-color: #FFCD00;
+}
+
+.seasons{
+  height: auto;
+  min-width: 100%;
+  background-color: #287EEF;
+}
+
+.seasons2 {
+  height: auto;
+  min-width: 100%;
+  background-color: #EBE9E9;
+}
+
+.sun{
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  background-color: #FFCD00;
+}
+
+.grass{
+  width: 37px;
+  height: 800px;
+  background-color: #19BB1F;
+  /* transform: rotate(-45deg); */
+}
+
+.seasonPic{
+  width: 665px;
+  height: 665px;
+}
+
+.udlejer{
+  min-height: 500px;
+}
+
+.udlejerPic {
+  width: 865px;
+  height: 565px;
+}
+
+.listeImg {
+
+  width: 100%;
+  min-height: 50%;
+  object-fit: fill;
+
+}
+
+.ServiceIcons {
+  width: 100px;
+  height: 100px;
+}
+
+.infobox {
+  width: 300px;
+  height: auto;
+  background-color: #EBE9E9;
+}
+
+/* Wrapper for Highlighted Icons */
+
+.wrapper {
+  min-width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  background: #f0ebe1;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transform: all 0.5s cubic-bezier(1,0,1,0);
 }
